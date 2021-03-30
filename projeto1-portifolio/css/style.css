@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* Created by Douglas Duarte de Andrade / Date: 29/03/2021 / Labenú Course */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+/* -Cabeçalho- */
+body {
+font-family: 'Roboto', sans-serif;
+	}
+
+header {
+	background-color: #b87aff;
+	color: #FFFFFF;
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	list-style-type: none;
+	}
+
+header section {
+	justify-self: center;
+	align-self: center;
+	}
+	
+nav {
+	justify-self: center;
+	align-self: center;
+	}	
+	
+nav li {
+	display: inline;
+	padding: 10px;
+	}	
+	
+nav a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 1.3em;	
+	}
+	
+nav a:hover {
+	color: #000000;
+	font-weight: bolder;
+	text-decoration: underline;
+	}
+	
+#logo {
+	heigth: 120px;
+	}
+
+.social-media {
+	height: 30px;
+	}		
+	
+/* -Conteudo Principal - Home */
+main {
+	display: grid;
+	min-height: 70vh;
+	}
+
+main#home {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+main section {
+	margin: 10px;
+	padding: 10px;
+	}	
+
+#sobre {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	text-align: center;
+	}
+
+aside {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	text-align: center;
+	align-self: center;
+	background-color: #b87aff;
+	}	
+
+#conta-corrente {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	border-right: 1px solid  #b87aff;
+	}	
+	
+#cartao {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 5;
+
+	}	
+	
+form {
+	width:100%;
+	margin: auto;
+	display:inline-block;
+	margin-top:10px;
+	color:#000;
+	background-color: rgba(100, 31, 117, 0.438);
+	border:1px solid #000000;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow: 1px 1px 2px #333333;    
+	-moz-box-shadow: 1px 1px 2px #333333;
+	-webkit-box-shadow: 1px 1px 2px #333333;	
+}
+
+
+
+/* -Rodapé- */	
+footer {
+	background-color: #b87aff;
+	color: #FFFFFF;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	min-height: 10vh;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	}
+
+footer section {
+	justify-self :center;
+	align-self:center;
+	}		
+	
+footer h3 {
+	background-color:  #a250ff;
+	padding: 5px;
+	}		
+	
+@media screen and (max-width: 375px) { /* @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+	body {
+		padding-bottom: 30vh;
+		}
+
+	nav {
+		text-align: center;
+	
+
+		}		
+
+	nav li {
+		display: block;
+		clear: both;
+		padding: 3px;
+		float: left;
+		font-size: 0.9em;
+		margin-bottom: 5px;
+		border:1px solid #000000;
+		border-radius:5px;
+		}		
+			
+
+	form {
+		width:100%;
+		margin: 0;
+		display:inline-block;
+		margin-top:10px;
+		color:#000;
+		background-color: rgba(100, 31, 117, 0.438);
+		border:1px solid #000000;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		box-shadow: 1px 1px 2px #333333;    
+		-moz-box-shadow: 1px 1px 2px #333333;
+		-webkit-box-shadow: 1px 1px 2px #333333;	
+		}	
+		
+
+	.responsive {
+		display: flex;
+		flex-direction: column;
+		}
+
+	#conta-corrente {
+		border: none;
+		}		
+		
+	footer {
+		min-height: 25vh;
+		}	
+	
+}	
+	
+	
+	
