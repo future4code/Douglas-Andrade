@@ -1,0 +1,62 @@
+//Quinzena3-aula11 / 335069
+
+Exercicio 1)
+/* const bool1 = true
+const bool2 = false
+const bool3 = !bool2
+
+let resultado = bool1 && bool2
+console.log("a. ", resultado)
+
+resultado = bool1 && bool2 && bool3
+console.log("b. ", resultado)
+
+resultado = !resultado && (bool1 || bool1)
+console.log("c. ", resultado)
+
+console.log("e. ", typeof resultado) */
+
+Resultado: 
+a-> false
+b-> false
+c-> true
+d-> n/a
+e-> boolean
+
+--*-*-*-*-*-*-*-*-*-*-*-*--
+
+Exercicio 2)
+/*
+let array
+console.log('a. ', array)
+
+array = null
+console.log('b. ', array)
+
+array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+console.log('c. ', array.length)
+
+let i = 0
+console.log('d. ', array[i])
+
+array[i+1] = 19
+console.log('e. ', array)
+
+const valor = array[i+6]
+console.log('f. ', valor)  */
+
+Resultado: 
+
+a-> Não definido
+b-> Nulo
+c-> 11
+d-> No array, o item 0 (zero) é o numero 3.
+e-> Exibe a array, adiciona o Nº 19 na posição [2].
+f-> Pega o 6ª item da array.
+
+
+não consegui fazer os exercicios.
+
+
+
+
